@@ -1,0 +1,69 @@
+cool-button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    animation: colorChangeButton 5s infinite alternate;
+  }
+   
+  .cool-button:hover {
+    background-color: #2980b9;
+  }
+   
+  .gradient-border {
+    background-image: linear-gradient(to right, #f06, #9f6);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+   
+  .text-center {
+    text-align: center;
+  }
+   
+  .color-change {
+    animation: colorChangeText 5s infinite alternate;
+  }
+   
+  @keyframes colorChangeText {
+    0% {
+      color: red;
+    }
+    25% {
+      color: orange;
+    }
+    50% {
+      color: yellow;
+    }
+    75% {
+      color: green;
+    }
+    100% {
+      color: blue;
+    }
+  }
+   
+  @keyframes colorChangeButton {
+    0% {
+      background-color: #3498db;
+    }
+    25% {
+      background-color: #e74c3c;
+    }
+    50% {
+      background-color: #f1c40f;
+    }
+    75% {
+      background-color: #27ae60;
+    }
+    100% {
+      background-color: #3498db;
+    }
+  }

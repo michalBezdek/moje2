@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <input id="username" type="text" placeholder="jmeno zde">
+    <button onclick="getName()">odeslat</button>
+
+    <div class="chest">
+        <div class="item">
+            <input placeholder="1 cislo" id="firstNumber">
+            <input placeholder="2 cislo" id="secondNumber">
+        </div>
+        <br><br>
+        <div class="item2">
+            <button onclick="addition()">+</button>
+            <button onclick="subtraction()">-</button>
+            <button onclick="deleni()">/</button>
+            <button onclick="nasobeni()">*</button>
+        </div>
+        <br><br>
+        <div class="item3">
+            <input placeholder="vysledek" id="result" readonly>
+        </div>
+    </div>
+
+
+    <input type="number" placeholder=" zadej cilso" id="numbertocheck">
+    <button onclick="checkResult()">kontrla</button>
+
+<button onclick="forLoop()">spustit</button>
+</body>
+
+</html>

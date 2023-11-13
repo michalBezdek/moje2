@@ -1,0 +1,18 @@
+.add-button {
+    position: relative;
+    left: 0;
+    background-color: red; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: transform 0.3s ease-in, left 10s ease-in;
+}
+
+.add-button:hover {
+    transform: scale(2.1);
+    left: 110px; 
+}
+
